@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "timer_pwm.h": "c",
+    "main.h": "c",
+    "lv_cb.h": "c",
+    "task_adc.h": "c",
+    "task_pwm.h": "c",
+    "task_gui.h": "c"
+  }
+}

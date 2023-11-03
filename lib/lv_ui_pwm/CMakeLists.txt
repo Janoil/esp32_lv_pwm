@@ -1,0 +1,21 @@
+SET(SOURCES screens/ui_Screen1.c
+    ui.c
+    components/ui_comp_hook.c
+    ui_helpers.c
+    images/ui_img_kkl_240_png.c
+    images/ui_img_send_35px_png.c
+    images/ui_img_begin_35px_png.c
+    images/ui_img_stop_35px_png.c
+    images/ui_img_save_35px_png.c
+    images/ui_img_lighting_20px_png.c
+    images/ui_img_lighting_17px_png.c
+    fonts/ui_font_SmileySans_12.c
+    fonts/ui_font_SmileySans_16.c
+    fonts/ui_font_SmileySans_20.c
+    fonts/ui_font_SmileySans_24.c
+    fonts/ui_font_SmileySans_28.c
+    fonts/ui_font_SmileySans_32.c
+    fonts/ui_font_SmileySans_36.c
+    fonts/ui_font_SmileySans_40.c)
+
+add_library(ui ${SOURCES})
